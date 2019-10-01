@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="assets/css/main.css">
   <title>Freelancer - Start Bootstrap Theme</title>
  </head>
- <body>
+ <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
   <nav class="navbar navbar-default navbar-fixed-top navbar-shrink ">
    <div class="container">
@@ -27,14 +27,14 @@
      <!-- Collect the nav links, forms, and other content for toggling -->
      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
        <ul class="nav navbar-nav navbar-right nav-pills">
-         <li class="active text-uppercase"><a href="#portfolio">Portfolio<span class="sr-only">(current)</span></a></li>
-         <li><a href="#">ABOUT</a></li>
-         <li><a href="#">CONTACT</a></li>
+         <li class="text-uppercase"><a href="#portfolio">Portfolio<span class="sr-only">(current)</span></a></li>
+         <li><a href="#about">ABOUT</a></li>
+         <li><a href="#contact">CONTACT</a></li>
        </ul>
      </div><!-- /.navbar-collapse -->
    </div><!-- /.container-fluid -->
- </nav>
- <header>
+  </nav>
+  <header>
   <div class="container text-center">
    <img class="avatar" src="assets/img/avataaars.svg" alt="">
    <h1 class="margin-0 font-weight-white">START BOOTSTRAP</h1>
@@ -52,9 +52,9 @@
 
  </header>
 
- <section id="portfolio" class="text-center">
+  <section id="portfolio" class="text-center">
   <div class="container">
-   <h2 class="text-center text-uppercase text-weight-bold">Portfolio</h2>
+   <h2 class="blue-text text-center text-uppercase text-weight-bold">Portfolio</h2>
    <div class="divider-custom">
     <div class="line">
     </div>
@@ -119,8 +119,92 @@
   </div>
  </section>
 
+  <section id="about">
+  <div class="container text-center">
+   <h2 class="font-weight-white">ABOUT</h2>
+   <div class="divider-custom">
+    <div class="line">
+    </div>
+    <div class="star">
+     <img src="assets/img/star-solid.svg" alt="">
+    </div>
+    <div class="line">
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-4 col-md-offset-2">
+     <p class="text-about">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
+    </div>
+    <div class="col-md-4">
+     <p class="text-about">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
+    </div>
+   </div>
+   <div class="text-center" id="download">
+    <a class="btn btn-default" href="#" role="button"> <img src="assets/img/download-solid.svg" alt=""> Free Download!</a>
+   </div>
+  </div>
+ </section>
 
+  <section id="contact" class="text-center">
+  <div class="container">
+   <h2 class="text-center text-uppercase text-weight-bold">contact me</h2>
+   <div class="divider-custom">
+     <div class="line">
+     </div>
+     <div class="star">
+      <img src="assets/img/star-solid-blue.svg" alt="">
+     </div>
+     <div class="line">
+     </div>
+    </div>
+    <div class="row">
+     <div class="col-md-8 col-md-offset-2">
+      <input type="text" class="form-control" placeholder="Name">
+      <input type="text" class="form-control" placeholder="Email Address">
+      <input type="text" class="form-control" placeholder="Phone Number">
+      <input type="text" class="form-control" placeholder="Message">
+      <div id="btn-send">
+       <a href="#" class="font-weight-white">Send</a>
+      </div>
 
+     </div>
+    </div>
+  </div>
+
+ </section>
+
+  <footer>
+   <div class="container">
+    <div class="row text-center">
+     <div class="col-md-4">
+      <h4 class="text-uppercase font-weight-white">location</h4>
+      <p>2215 John Daniel Drive<br>
+       Clark, MO 65243
+      </p>
+     </div>
+     <div class="col-md-4">
+      <h4 class="text-uppercase font-weight-white">around the web</h4>
+
+      <a href="#" class="circle"><img src="assets/img/facebook-f-brands.svg" alt=""></a>
+      <a href="#" class="circle"><img src="assets/img/twitter-brands.svg" alt=""></a>
+      <a href="#" class="circle"><img src="assets/img/linkedin-in-brands.svg" alt=""></a>
+      <a href="#" class="circle"><img src="assets/img/basketball-ball-solid.svg" alt=""></a>
+
+     </div>
+     <div class="col-md-4">
+      <h4 class="text-uppercase font-weight-white">about freelancer</h4>
+      <p>Freelance is a free to use, MIT licensed Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+     </div>
+    </div>
+   </div>
+  </footer>
+
+  <section id="copy">
+   <div class="container text-center">
+    <small>Copyright © Your Website 2019
+    </small>
+   </div>
+  </section>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script type="text/javascript" src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 
